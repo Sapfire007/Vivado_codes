@@ -3,7 +3,7 @@ module tb_comparator_4bit_dataflow;
     wire x, y, z;
     
     // Instantiate the 4-bit comparator module
-    comparator_4bit comp(a3, a2, a1, a0, b3, b2, b1, b0, x, y, z);
+    comparator_4bit_dataflow comp(a3, a2, a1, a0, b3, b2, b1, b0, x, y, z);
     
     initial begin
         // Test Case 1: A = 0000, B = 0000 (A == B)
