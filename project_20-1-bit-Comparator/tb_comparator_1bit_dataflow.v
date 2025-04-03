@@ -2,7 +2,7 @@ module tb_comparator_1bit_dataflow;
     reg  a, b;  
     wire x, y, z;  
 
-    comparator_1bit a1(a, b, x, y, z);  // Positional port mapping  
+    comparator_1bit_dataflow a1(a, b, x, y, z);  // Positional port mapping  
 
     initial  
     begin  
